@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () =>{
             message.textContent = "please enter a number between 1 and 100";
         }
         else if(guess  === random){
-            message.textContent = `congratulations, you can find the ${random} number in ${attempts} attempts`;
+            message.textContent = `congratulations, you can find the ${random } number in ${ attempts } attempts`;
         }
         else{
             guess < random ? message.textContent = "try a higher number" : message.textContent = "try a lower number";
